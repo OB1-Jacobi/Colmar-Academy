@@ -19,12 +19,11 @@ header {
     width: auto;
 }
 
-#first-name p {
+#first-name p{
     margin-bottom: 0px;
     margin-top: 8px;
     color: grey;
 }
-
 #second-name p {
     margin-bottom: 0px;
     margin-top: 8px;
@@ -41,4 +40,20 @@ header {
     display: flex;
     height: 32px;
     width: auto;
+}
+
+#name {
+    display: flex;
+    width: 567px;
+}
+
+#navigation {
+    display: flex;
+    width: 567px;
+    justify-content: right;
+    padding-right: 24px;
+}
+
+.button p {
+    margin: 8px 8px 8px 8px;
 }
