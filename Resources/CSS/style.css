@@ -2,6 +2,7 @@ body {
 
 }
 
+/* all header CSS */
 header {
     height: 64px;
     width: 100%;
@@ -33,7 +34,6 @@ header {
 #logo {
     height: 32px;
     width: auto;
-    padding-left: 24px;
 }
 
 .flex-container {
@@ -45,12 +45,13 @@ header {
 
 #name {
     display: flex;
-    width: 567px;
+    width: 100%;
+    padding-left: 24px;
 }
 
 #navigation {
     display: flex;
-    width: 567px;
+    width: 100%;
     justify-content: right;
     padding-right: 24px;
 }
@@ -60,7 +61,62 @@ header {
 }
 
 a {
-    color: black;
+    color: darkslategrey;
     text-decoration: none;
     font-size: 18px;
 }
+
+/* home */
+#home {
+    background-color: silver;
+    width: 100%;
+}
+
+.home-flex {
+    display: flex;
+}
+
+.banner {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+.banner img {
+    width: -moz-available;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.start > h1:nth-child(1) {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: darkslategrey;
+   }
+
+   .start > h3:nth-child(2) {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    color: darkslategrey;
+   }
+
+   .start > button:nth-child(3) {
+    margin-left: 100px;
+    margin-right: 140px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: darkslategrey;
+    color: silver;
+   }
+   
