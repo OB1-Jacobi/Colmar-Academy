@@ -1,245 +1,283 @@
-body {
+body {}
 
+h1 {
+  color: darkslategrey;
+}
+
+h2 {
+  color: darkslategrey;
+}
+
+h3 {
+  color: darkslategrey;
+}
+
+p {
+  color: darkslategrey;
 }
 
 /* all header CSS */
 header {
-    height: 64px;
-    width: 100%;
-    display: flex;
-    align-items: center;
+  height: 64px;
+  width: 100%;
+  display: flex;
+  align-items: center;
 }
 
 #first-name {
-    height: 32px;
-    width: auto;
+  height: 32px;
+  width: auto;
 }
 
 #second-name {
-    height: 32px;
-    width: auto;
+  height: 32px;
+  width: auto;
 }
 
 #first-name p {
-    margin-bottom: 0px;
-    margin-top: 8px;
-    color: grey;
+  margin-bottom: 0px;
+  margin-top: 8px;
+  color: grey;
 }
+
 #second-name p {
-    margin-bottom: 0px;
-    margin-top: 8px;
-    color: silver;
+  margin-bottom: 0px;
+  margin-top: 8px;
+  color: silver;
 }
 
 #logo {
-    height: 32px;
-    width: auto;
+  height: 32px;
+  width: auto;
 }
 
 .flex-container {
-    display: flex;
-    height: 32px;
-    width: auto;
-    align-items: center;
+  display: flex;
+  height: 32px;
+  width: auto;
+  align-items: center;
 }
 
 #name {
-    display: flex;
-    width: 100%;
-    padding-left: 24px;
+  display: flex;
+  width: 100%;
+  padding-left: 24px;
 }
 
 #navigation {
-    display: flex;
-    width: 100%;
-    justify-content: right;
-    padding-right: 24px;
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  padding-right: 24px;
 }
 
 .button a {
-    margin: 8px 8px 8px 8px;
+  margin: 8px 8px 8px 8px;
 }
 
 a {
-    color: darkslategrey;
-    text-decoration: none;
-    font-size: 18px;
+  color: darkslategrey;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 /* home */
 #home {
-    background-color: silver;
-    width: 100%;
+  background-color: silver;
+  width: 100%;
 }
 
 .home-flex {
-    display: flex;
+  display: flex;
 }
 
 .banner {
-    width: 60%;
-    padding: 32px 24px;
+  width: 60%;
+  padding: 32px 24px;
 }
 
 .banner img {
-    width: -moz-available;
+  width: -moz-available;
+  width: 100%;
 }
 
 .start {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.start > h1:nth-child(1) {
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    color: darkslategrey;
-   }
+.start>h1:nth-child(1) {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: darkslategrey;
+}
 
-   .start > h3:nth-child(2) {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    color: darkslategrey;
-   }
+.start>h3:nth-child(2) {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  color: darkslategrey;
+}
 
-   .start > button:nth-child(3) {
-    margin-left: 100px;
-    margin-right: 140px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    background-color: darkslategrey;
-    color: silver;
-   }
-   
-   /* campus */
+.start>button:nth-child(3) {
+  margin-left: 100px;
+  margin-right: 140px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: darkslategrey;
+  color: silver;
+}
 
-   #campus {
-       display: flex;
-   }
+/* campus */
 
-   .practice {
-    width: 60%;
-    padding: 32px 24px;
-   }
- 
-   .picture > img:nth-child(1) {
-    width: -moz-available;
-   }
+#campus {
+  display: flex;
+}
 
-   .events {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-   }
+.practice {
+  width: 60%;
+  padding: 32px 24px;
+}
 
-   .orientation {
-    display: flex;
-    border: thin solid silver;
-  }
-  
-  .locations {
-    display: flex;
-    border: thin solid silver;
-  }
-  
-  .lecture {
-    display: flex;
-    border: thin solid silver;
-    background-color: silver;
-  }
-  
-  .orientation > div:nth-child(1) {
-    width: 35%;
-    height: auto;
-  }
+.picture>img:nth-child(1) {
+  width: -moz-available;
+  width: 100%;
+}
 
-  .orientation > div:nth-child(1) > img:nth-child(1) {
-    width: -moz-available;
-    padding: 16px 16px;
-  }
-  
-  .orientation > div:nth-child(2) {
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .locations > div:nth-child(1) {
-    width: 35%;
-    height: auto;
-  }
-  
-  .locations > div:nth-child(1) > img:nth-child(1) {
-    width: -moz-available;
-    padding: 16px 16px;
-  }
-  
-  .locations > div:nth-child(2) {
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .lecture > div:nth-child(1) {
-    width: 35%;
-    height: auto;
-  }
-  
-  .lecture > div:nth-child(1) > img:nth-child(1) {
-    width: -moz-available;
-    padding: 16px 16px;
-  }
-  
-  .lecture > div:nth-child(2) {
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .picture > h1:nth-child(2) {
-    margin-top: 32px;
-    margin-bottom: 24px;
-   }
+.events {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
 
-   .orientation > div:nth-child(2) > p:nth-child(2) {
-    margin-top: 8px;
-    margin-bottom: 8px;
-   }
+.orientation {
+  display: flex;
+  border: thin solid silver;
+}
 
-   .orientation > div:nth-child(2) > h3:nth-child(1) {
-    margin-bottom: 0px;
-    margin-top: 0px;
-   }
+.locations {
+  display: flex;
+  border: thin solid silver;
+}
 
-   .locations > div:nth-child(2) > h3:nth-child(1) {
-    margin-top: 0px;
-    margin-bottom: 0px;
-   }
+.lecture {
+  display: flex;
+  border: thin solid silver;
+  background-color: silver;
+}
 
-   .locations > div:nth-child(2) > p:nth-child(2) {
-    margin-top: 8px;
-    margin-bottom: 8px;
-   }
+.orientation>div:nth-child(1) {
+  width: 35%;
+  height: auto;
+  padding: 16px 16px;
+}
 
-   .lecture > div:nth-child(2) > h3:nth-child(1) {
-    margin-top: 0px;
-    margin-bottom: 0px;
-   }
+.orientation>div:nth-child(1)>img:nth-child(1) {
+  width: -moz-available;
+  width: 100%;
+}
 
-   .lecture > div:nth-child(2) > p:nth-child(2) {
-    margin-top: 8px;
-    margin-bottom: 8px;
-   }
-   
+.orientation>div:nth-child(2) {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locations>div:nth-child(1) {
+  width: 35%;
+  height: auto;
+  padding: 16px 16px;
+}
+
+.locations>div:nth-child(1)>img:nth-child(1) {
+  width: -moz-available;
+  width: 100%;
+}
+
+.locations>div:nth-child(2) {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lecture>div:nth-child(1) {
+  width: 35%;
+  height: auto;
+  padding: 16px 16px;
+}
+
+.lecture>div:nth-child(1)>img:nth-child(1) {
+  width: -moz-available;
+  width: 100%;
+}
+
+.lecture>div:nth-child(2) {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.picture>h1:nth-child(2) {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.orientation>div:nth-child(2)>p:nth-child(2) {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.orientation>div:nth-child(2)>h3:nth-child(1) {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.locations>div:nth-child(2)>h3:nth-child(1) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.locations>div:nth-child(2)>p:nth-child(2) {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.lecture>div:nth-child(2)>h3:nth-child(1) {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.lecture>div:nth-child(2)>p:nth-child(2) {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* Online */
+
+#online>h1:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  color: darkslategrey;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+
+#online {
+  padding: 32px 72px;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+}
