@@ -380,6 +380,7 @@ a {
 #for-companies {
   padding-left: 24px;
   padding-bottom: 32px;
+  border-bottom: thin solid silver;
 }
 
 .text-box {
