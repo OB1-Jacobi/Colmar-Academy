@@ -393,3 +393,24 @@ a {
   padding-top: 24px;
   padding-bottom: 8px;
 }
+
+/* footer */
+
+footer {
+  padding: 16px 24px;
+  display: flex;
+}
+
+.copyright {
+  width: 50%;
+}
+
+.terms {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tp {
+  padding: 5px;
+}
